@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/html/
+  - source: /css_js
+    destination: /var/www/html/css_js
+  - source: /img
+    destination: /var/www/html/img
+file_exists_behavior: OVERWRITE
